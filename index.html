@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+   <link rel="stylesheet" href="dark.css">
+</head>
+<body>
+   <div class="container">
+      <!-- siderbar section -->
+      <aside>
+         <div class="toggle">
+            <div class="logo">
+               <img src="https://t3.ftcdn.net/jpg/02/22/82/58/360_F_222825822_vxUrgH4aQ6gjnJguJ5awcextCAbCUvvG.jpg" alt="">
+               <h2>Zero<span class="danger">Shop</span></h2>
+            </div>
+            <div class="close" id="close-btn">
+               <span class="material-symbols-outlined">
+                  close
+               </span>
+            </div>
+         </div>
+
+         <div class="sidebar">
+            <a href="#">
+               <span class="material-symbols-outlined">
+                  dashboard
+               </span>
+               <h3>Dashboard</h3>
+            </a>
+            <a href="#">
+               <span class="material-symbols-outlined">
+                  person
+               </span>
+               <h3>User</h3>
+            </a>
+
+            <a href="#">
+               <span class="material-symbols-outlined">
+                 receipt_long
+               </span>
+               <h3>History</h3>
+            </a>
+
+            <a href="#" class="active">
+               <span class="material-symbols-outlined">
+                  trending_up
+               </span>
+               <h3>Analytics</h3>
+            </a>
+
+            <a href="#">
+               <span class="material-symbols-outlined">
+                  mail_outline
+               </span>
+               <h3>Tickets</h3>
+               <span class="massage-count">27</span>
+            </a>
+
+            <a href="#">
+               <span class="material-symbols-outlined">
+                  inventory
+               </span>
+               <h3>Sale List</h3>
+            </a>
+
+            <a href="#">
+               <span class="material-symbols-outlined">
+                  report
+               </span>
+               <h3>Reports</h3>
+            </a>
+
+            <a href="#">
+               <span class="material-symbols-outlined">
+                  settings
+               </span>
+               <h3>Settings</h3>
+            </a>
+
+            <a href="#">
+               <span class="material-symbols-outlined">
+                  add
+               </span>
+               <h3>New Login</h3>
+            </a>
+
+            <a href="#" class="logout">
+               <span class="material-symbols-outlined">
+                  logout
+               </span>
+               <h3>Logout</h3>
+            </a>
+
+         </div>
+      </aside>
+
+
+      <!-- end of sidebar section -->
+
+
+      <!-- main content -->
+
+      <main>
+         <h1>Analytics</h1>
+         <div class="analyse">
+            <!-- box-1 -->
+            <div class="sales">
+               <div class="status">
+                  <div class="info">
+                     <h3>Total Sales</h3>
+                     <h1>$65.033</h1>
+                  </div>
+                  <div class="progress">
+                     <svg>
+                        <circle cx="38" cy="38" r="36"> </circle>
+                     </svg>
+                     <div class="percentage">
+                        +81%
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- box-2 -->
+
+            <div class="visits">
+               <div class="status">
+                  <div class="info">
+                     <h3>Site Visit</h3>
+                     <h1>24,981</h1>
+                  </div>
+                  <div class="progress">
+                     <svg>
+                        <circle cx="38" cy="38" r="36"> </circle>
+                     </svg>
+                     <div class="percentage">
+                        +48%
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!-- box-3 -->
+
+            <div class="searches">
+               <div class="status">
+                  <div class="info">
+                     <h3>Searches</h3>
+                     <h1>14.147</h1>
+                  </div>
+                  <div class="progress">
+                     <svg>
+                        <circle cx="38" cy="38" r="36"> </circle>
+                     </svg>
+                     <div class="percentage">
+                        +21%
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+         <!-- end of analyses -->
+
+         <!-- new user section -->
+         <div class="new-users">
+            <h2>New User</h2>
+            <div class="user-list">
+               <div class="user">
+                  <img src="https://i.pinimg.com/736x/e4/6a/ef/e46aefb29d6a597aa2942c211435ce4f.jpg" alt="">
+                  <h2>Mikey</h2>
+                  <p>20 Min Ago</p>
+               </div>
+               <div class="user">
+                  <img src="https://i.pinimg.com/564x/4e/f3/12/4ef3121c19dc592502d3c239be0f8d1e.jpg" alt="">
+                  <h2>Kondog</h2>
+                  <p>3 hours Ago</p>
+               </div>
+               <div class="user">
+                  <img src="https://i.pinimg.com/736x/66/6f/50/666f503742959d9955e7c18f3c1d21d4.jpg" alt="">
+                  <h2>Rakey</h2>
+                  <p>6 hours Ago</p>
+               </div>
+               <div class="user">
+                  <img src="https://i.pinimg.com/236x/78/cf/59/78cf59afb613b62e43377f3414035159.jpg" alt="">
+                  <h2>More</h2>
+                  <p>New User</p>
+               </div>
+            </div>
+         </div>
+
+         <!-- end of new user -->
+
+         <!-- recent Order table -->
+
+         <div class="recent-order">
+            <h2>Recent Orders</h2>
+            <table>
+               <thead>
+                  <tr>
+                     <th>Course Name</th>
+                     <th>Course Number</th>
+                     <th>Payment</th>
+                     <th>Status</th>
+                     <th></th>
+                  </tr>
+               </thead>
+
+               <tbody></tbody>
+            </table>
+            <a href="#">Show All</a>
+         </div>
+
+         <!-- end of recent Order -->
+      </main>
+      <!-- end of main -->
+
+      <!-- right section -->
+
+      <div class="right-section">
+         <div class="nav">
+            <button id="menu-btn">
+               <span class="material-symbols-outlined">
+                  menu
+               </span>
+            </button>
+
+            <div class="dark-mode">
+               <span class="material-symbols-outlined active">
+                  light_mode
+               </span>
+
+               <span class="material-symbols-outlined">
+                  dark_mode
+               </span>
+            </div>
+
+            <div class="profile">
+               <div class="info">
+                  <p>Hey, <b> Reza</b></p>
+                  <small class="text-muted">Admin</small>
+               </div>
+
+               <div class="profile-photo">
+                  <img src="img/A.JPG" alt="">
+               </div>
+            </div>
+         </div>
+         <!-- end of nav -->
+
+         <div class="user-profile">
+            <div class="logo">
+               <img src="https://t3.ftcdn.net/jpg/02/22/82/58/360_F_222825822_vxUrgH4aQ6gjnJguJ5awcextCAbCUvvG.jpg" alt="">
+               <h2>Asmrprog</h2>
+               <p>Fullstack Web Developer</p>
+            </div>
+         </div>
+
+         <div class="reminders">
+            <div class="header">
+               <h2>Reminders</h2>
+               <span class="material-symbols-outlined">
+                  notifications
+               </span>
+            </div>
+
+            <!-- box 1 -->
+            <div class="notification">
+               <div class="icon">
+                  <span class="material-symbols-outlined">
+                     volume_up
+                  </span>
+               </div>
+               <div class="content">
+                  <div class="info">
+                     <h3>Workshop</h3>
+                     <small class="text_muted">
+                        08:00 AM - 12:00 PM
+                     </small>
+                  </div>
+                  <span class="material-symbols-outlined">
+                     more_vert
+                  </span>
+               </div>
+            </div>
+
+            <!-- box 2 -->
+            <div class="notification deactive">
+               <div class="icon">
+                  <span class="material-symbols-outlined">
+                     edit
+                  </span>
+               </div>
+               <div class="content">
+                  <div class="info">
+                     <h3>Workshop</h3>
+                     <small class="text_muted">
+                        08:00 AM - 12:00 PM
+                     </small>
+                  </div>
+                  <span class="material-symbols-outlined">
+                     more_vert
+                  </span>
+               </div>
+            </div>
+            
+            <!-- box 3 -->
+            <div class="notification add-remider">
+               <div>
+                  <span class="material-symbols-outlined">
+                     add
+                  </span>
+                  <h3>Add Remider</h3>
+               </div>
+            </div>
+
+
+         </div>
+
+      </div>
+   </div>
+
+   <script src="order.js"></script>
+   <script src="array.js"></script>
+</body>
+</html>
